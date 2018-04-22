@@ -1,0 +1,13 @@
+.mdl-layout__content .mdl-grid {
+  max-width: 720px;
+  padding: 40px 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  text-align: center;
+}
