@@ -19,11 +19,9 @@ router.post('/:newValue', function(req, res, next) {
   res.send('OK');
 });
 
-
-
 router.get('/', function(req, res, next) {
   const data = db.getData();
-  res.send(data);
+  res.send(data && data.counter);
 });
 
 module.exports = router;
